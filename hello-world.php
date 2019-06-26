@@ -16,3 +16,11 @@
  * 
  */
 
+function thank_you() {
+	if(!is_admin()) {
+		echo "Hello, this is my first plugin and thank you ashish for this tutorial.";
+	}
+	
+}
+
+thank_you();
